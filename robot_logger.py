@@ -1,8 +1,3 @@
-"""
-Minimal Robot Logger - Just the essentials in one file.
-Copy this single file to your project and you're done!
-"""
-
 import os
 from datetime import datetime
 
@@ -25,6 +20,7 @@ class RobotLogger:
         self.step_num = 0
 
     def _supports_color(self):
+        """Check if the terminal supports colors."""
         return (
             hasattr(os.sys.stdout, "isatty")
             and os.sys.stdout.isatty()
@@ -33,9 +29,11 @@ class RobotLogger:
         )
 
     def _color(self, text, color):
+        """Add color to the text."""
         return f"{color}{text}{self.RESET}" if self.use_colors else text
 
     def _log(self, level, message, color):
+        """Log a message."""
         time = datetime.now().strftime("%H:%M:%S")
         level_str = self._color(f"[{level}]", color)
         test_part = f" | {self.test_name}" if self.test_name else ""
