@@ -68,12 +68,12 @@ Reusable keywords that integrate with your logger:
 
 ## Key Features
 
-✅ **Color-coded output** in terminal
-✅ **Test context tracking** with step numbers
-✅ **Rich formatting** with timestamps and icons
-✅ **Integration** with Robot Framework keywords
-✅ **Reusable** across multiple test suites
-✅ **Simple** - just 4 files total
+✅ **Color-coded output** in terminal  
+✅ **Test context tracking** with step numbers  
+✅ **Rich formatting** with timestamps and icons  
+✅ **Integration** with Robot Framework keywords  
+✅ **Reusable** across multiple test suites  
+✅ **Simple** - just 6 files total
 
 ## Example Output
 
