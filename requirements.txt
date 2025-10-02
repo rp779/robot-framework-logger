@@ -1,0 +1,4 @@
+# Robot Framework and testing dependencies
+robotframework>=6.0
+robotframework-seleniumlibrary>=6.0
+requests>=2.28.0
