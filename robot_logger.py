@@ -3,7 +3,13 @@ from datetime import datetime
 
 
 class RobotLogger:
-    """Simple logger for Robot tests with colors."""
+    """Simple logger for Robot tests with colors.
+    
+    Args:
+        use_colors: Whether to use colors in the output.
+        test_name: The name of the current test.
+        step_num: The number of the current step.
+    """
 
     # Colors
     RESET = "\033[0m"
